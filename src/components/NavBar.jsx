@@ -7,7 +7,7 @@ function NavBar() {
       <div className="margin-navbar">
         <nav className="navbar navbar-expand-lg navbar-custom">
           <div className="container-fluid">
-            <a className="navbar-brand" href="/index.html">
+            <a className="navbar-brand" href="./index.html">
               Talita Alves
             </a>
             <button
@@ -26,11 +26,11 @@ function NavBar() {
               id="navbarNavAltMarkup"
             >
               <div className="navbar-nav header">
-                <Link to="/index.html" className="nav-link">
+                <Link to="./index.html" className="nav-link">
                   <a
                     className="nav-link active"
                     aria-current="page"
-                    href="/index.html"
+                    href="./index.html"
                     id="home"
                     title="Homepage"
                   >
