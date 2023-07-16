@@ -26,7 +26,7 @@ function NavBar() {
               id="navbarNavAltMarkup"
             >
               <div className="navbar-nav header">
-                <Link to="./" className="nav-link">
+                <Link to="/" className="nav-link">
                   <a
                     className="nav-link active"
                     aria-current="page"
