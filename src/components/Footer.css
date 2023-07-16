@@ -1,0 +1,34 @@
+:root {
+    --secondary-color: #6c63ff;
+    --tittle-font: "Playfair Display", serif;
+    --sub-tittle-font: "Poppins", sans-serif;
+  }
+
+  footer{
+    font-family: var(--tittle-font);;
+    font-size: 12px;
+    padding: 10px;
+    background-color:rgba(128, 128, 128, 0.212)
+  }
+
+.footer-paragraph {
+   
+    color: #272142;
+   
+    
+  }
+
+  .footer-link {
+    
+    color: #4121d0;
+   
+  }
+
+  
+
+  .email {
+    font-family: var(--tittle-font);;
+    font-size: 12px;
+    font-weight: 500px;
+    }
+  

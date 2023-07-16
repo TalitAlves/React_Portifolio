@@ -1,0 +1,37 @@
+:root {
+    --secondary-color: #6c63ff;
+    --tittle-font: "Playfair Display", serif;
+    --sub-tittle-font: "Poppins", sans-serif;
+  }
+ 
+
+  .about-container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+  }
+
+.about-title{
+    font-family: var(--tittle-font);
+    font-size: 64px;
+    font-weight: bold;
+   
+  }
+  
+.about-subtitle{
+    font-family: var(--sub-tittle-font);
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+  }
+
+  .personal-info{
+    font-family: var(--sub-tittle-font);
+    text-align: justify;
+    margin-left: 20px;
+
+  }

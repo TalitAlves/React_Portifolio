@@ -1,0 +1,11 @@
+.title{ 
+    font-family:"Playfair Display", serif;
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.homepage{
+    height: 60vh;
+    margin-top: 40px;
+}

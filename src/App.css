@@ -1,0 +1,185 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+:root {
+  --secondary-color: #6c63ff;
+  --tittle-font: "Playfair Display", serif;
+  --sub-tittle-font: "Poppins", sans-serif;
+}
+
+label {
+  font-family: var(--sub-tittle-font);
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.mb-30 {
+  margin-bottom: 30px !important;
+}
+
+.p-10 {
+  padding: 10px !important;
+}
+
+.icon {
+  font-size: 35px;
+  font-weight: 500px;
+  line-height: 20px;
+  padding: 15px;
+  display: flex;
+  align-content: space-around;
+  background-color: #f8f7ff;
+  border-radius: 50%;
+  margin: 0 70px;
+}
+
+.icon img {
+  width: 30px;
+}
+.sub-tittle {
+  font-family: var(--tittle-font);
+  font-size: 40px;
+  font-weight: 700px;
+  line-height: 60px;
+}
+
+.header {
+  font-family: var(--sub-tittle-font);
+  font-size: 16px;
+}
+
+.homepage {
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact-page {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.col-6 {
+  padding: 30px;
+}
+
+.main-button {
+  background-color: var(--secondary-color);
+  color: #ffffff;
+  border-radius: 4px;
+  text-align: center;
+  padding: 12px 20px;
+  border: none;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 500px;
+  align-self: center;
+  margin-top: 24px;
+  transition: all 200ms ease;
+}
+
+.skills {
+  width: 120px;
+  border-radius: 4px;
+}
+
+.contact {
+  margin-top: 30px;
+  text-align: left;
+}
+
+#home {
+  color: var(--secondary-color);
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.navbar-custom {
+  background-color: #eee8ff;
+}
+
+.main-button:hover {
+  background-color: white;
+  color: var(--secondary-color);
+  border: 1px solid #6c63ff;
+}
+
+.project-button:hover {
+  background-color: var(--secondary-color);
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  .sub-tittle {
+    font-size: 25px;
+  }
+
+  .responsive-img {
+    display: none;
+  }
+
+  h1 {
+    font-size: 45px;
+  }
+
+  h4 {
+    font-size: 35px;
+  }
+
+  label {
+    font-size: 10px;
+    font-weight: 200;
+  }
+  .p-10 {
+    padding: 0px !important;
+  }
+
+  .mb-30 {
+    margin-bottom: 10px !important;
+  }
+
+  .mb-5 {
+    margin-bottom: 1px !important;
+  }
+
+  .email {
+    font-size: 15px;
+  }
+
+  .homepage {
+    padding: 15px;
+  }
+
+  .main-button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .photo {
+    max-width: 60%;
+    height: auto;
+  }
+
+  .col-sm-3 {
+    max-width: 25%;
+  }
+
+  .header-my-project {
+    padding-bottom: 5px;
+  }
+
+  .icon {
+    margin: 0 35px;
+  }
+}

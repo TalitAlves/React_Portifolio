@@ -1,0 +1,53 @@
+:root {
+    --secondary-color: #6c63ff;
+    --tittle-font: "Playfair Display", serif;
+    --sub-tittle-font: "Poppins", sans-serif;
+  }
+
+
+.skills-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 5px;
+    margin: 20px;
+    font-family: var(--sub-tittle-font);
+
+    
+
+}
+
+.skill-title{ 
+    font-family:"Playfair Display", serif;
+    font-size: 80px;
+    font-weight: bold;
+   
+}
+
+.grid-iten{
+    border: 1px solid #6c63ff;
+    padding: 5px; 
+    border-radius: 5px;
+}
+.skill-logo{
+    width: 40px ;
+    margin-bottom: 10px;
+}
+
+.skill-item{
+  font-size: 16px;
+}
+
+
+
+@media (max-width: 768px) {
+   .skills-grid{ 
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }}
+
+  @media (max-width: 480px) {
+    .skills-grid{ 
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, 1fr);
+  }}
