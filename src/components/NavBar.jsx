@@ -7,7 +7,7 @@ function NavBar() {
       <div className="margin-navbar">
         <nav className="navbar navbar-expand-lg navbar-custom">
           <div className="container-fluid">
-            <a className="navbar-brand" href="/#">
+            <a className="navbar-brand" href="./">
               Talita Alves
             </a>
             <button
