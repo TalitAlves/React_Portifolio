@@ -1,0 +1,20 @@
+
+
+.project-container {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #f5f2fe;
+  display: flex;
+  gap: 15px;
+  padding: 5px;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+

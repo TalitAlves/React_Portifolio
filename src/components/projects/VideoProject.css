@@ -1,0 +1,60 @@
+.videoProject {
+    position: relative;
+    display: inline-block;
+    width: 35%;
+    border-radius: 8px;
+   min-height: 200px;
+   display: flex;
+   justify-content: center;
+   align-items: center,
+}
+
+.videoProject video {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.project-info2 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(110, 107, 107, 0.5);
+    color:#FFFFFF;
+    padding: 15px;
+    font-size: 16px;
+    width: 100%;
+    text-align: left ;
+    transition: opacity 0.3s ease-in-out;
+   
+    
+    
+ 
+}
+
+.bookstore:hover .project-info {
+    opacity: 1;
+}
+
+.project-info2 > h2, .project-info > div, .project-info2 >p{
+    margin-left: 20px;
+}
+
+.tec-skills{
+    border-radius: 50px;
+    background-color: #696869;
+    color:#FFFFFF;
+    padding: 4px 10px;
+    font-size: 11px;
+    margin-right: 6px;
+    border: none;
+    cursor: auto
+    
+    
+
+}
+
+h2>a{
+    color:#FFFFFF; ;
+}
