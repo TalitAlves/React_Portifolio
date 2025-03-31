@@ -1,8 +1,8 @@
 import React from 'react';
-import './About.css';
-import Photo from '../images/retrato2.jpg';
-import Skills from './Skills';
-import SkillsCarousel from './SkillsCarousel';
+import '../../css/About.css'
+import Photo from '../../images/photo.jpg';
+import Skills from '../Skills';
+import SkillsCarousel from '../SkillsCarousel';
 import { Link } from 'react-router-dom';
 
 function About() {

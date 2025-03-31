@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import "../projects/VideoProject.css"
+import "../../../css/VideoProject.css"
 
 function VideoProject({videoSrc, projectLink, projectTitle, description, skill }) {
     

@@ -1,11 +1,11 @@
 import "./App.css";
 import NavBar from "./components/NavBar";
-import Home from "./components/Home";
+import Home from "./components/pages/Home";
 import { Routes, Route } from "react-router-dom";
-import Footer from "./components/Footer";
-import About from "./components/About";
-import Projects from "./components/projects/Projects";
-import ContactPage from "./components/ContactPage";
+import Footer from '../src/components/Footer';
+import About from "./components/pages/About";
+import Projects from "./components/pages/projects/Projects";
+import ContactPage from "./components/pages/ContactPage";
 
 
 function App() {

@@ -1,15 +1,15 @@
 import React from "react";
-import "./Projects.css";
-import Dictionary from '../../videos/Dictionary.mp4';
-import ToDoList from "../../videos/ToDoList.mp4";
-import WeatherApp from "../../videos//WeatherApp.mp4";
-import WhackADigglett from "../../videos/WhackADigglett.mp4";
-import WhoisWhoGame from "../../videos/WhoIsWho.mp4";
-import EcommerceDrinks from "../../videos/EcommerceDrinks.mp4";
-import Pokedex from "../../videos/Pokedex.mp4";
-import TheMemoryGame from "../../videos/MemoryGame.mp4";
-import VideoProject from "./VideoProject";
-import BookstoreVideo from '../../videos/Bookstore.mp4'
+import '../../../css/Projects.css'
+import Dictionary from '../../../videos/Dictionary.mp4'
+import ToDoList from "../../../videos/ToDoList.mp4";
+import WeatherApp from "../../../videos//WeatherApp.mp4";
+import WhackADigglett from "../../../videos/WhackADigglett.mp4";
+import WhoisWhoGame from "../../../videos/WhoIsWho.mp4";
+import EcommerceDrinks from "../../../videos/EcommerceDrinks.mp4";
+import Pokedex from "../../../videos/Pokedexx.mp4";
+import TheMemoryGame from "../../../videos/MemoryGame.mp4";
+import VideoProject from "../projects/VideoProject"
+import BookstoreVideo from '../../../videos/Bookstore.mp4'
 
 const Projects = () => {
   return (

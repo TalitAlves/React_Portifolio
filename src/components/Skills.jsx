@@ -1,5 +1,5 @@
 import React from "react";
-import "./Skills.css";
+import "../css/Skills.css";
 import api from "../images/api.jpg";
 import bootstrap from "../images/bootstrap.jpg";
 import css from "../images/css.jpg";

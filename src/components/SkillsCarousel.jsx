@@ -1,7 +1,7 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import "./SkillsCarousel.css";
+import "../css/SkillsCarousel.css";
 import ShecodesBasic from "../images/ShecodesBasic.jpg";
 import ShecodesPlus from "../images/ShecodesPlus.jpg";
 import ShecodesReact from "../images/ShecodesReact.png";

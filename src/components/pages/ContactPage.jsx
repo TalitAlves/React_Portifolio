@@ -1,5 +1,5 @@
 import React from "react";
-import photo from "../images/retrato2.jpg";
+import photo from "../../images/photo.jpg";
 
 function ContactPage() {
   return (
@@ -22,7 +22,7 @@ function ContactPage() {
             📞 <strong>phone</strong>: +34 681 611 007
           </p>
           <p>
-            🔗 <strong>linkedInn</strong>:{" "}
+            🔗 <strong>linkedIn</strong>:{" "}
             <a
               href="https://www.linkedin.com/in/talitaalvesgomes/"
               target="_blank"
